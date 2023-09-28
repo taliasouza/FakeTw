@@ -261,12 +261,12 @@ body {
 }
 
 .home .feed .post .avatar {
-  width: 5%;
+  width: 18%;
 }
 
 .home .feed .post .avatar img {
-  width: 60px;
-  height: 60px;
+  width: 0.5px;
+  height: 0.5px;
   border-radius: 50%;
 }
 
