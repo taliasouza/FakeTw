@@ -4,7 +4,7 @@ function cargarTweets() {
     fetch('https://my-json-server.typicode.com/taliasouza/FakeTw/posts')
       .then(response => response.json())
       .then(data => {
-        const posts = data.posts;
+        const posts = data;
         const feedDiv = document.querySelector('.feed');
   
         // Recorrer los tweets y agregarlos al feed
