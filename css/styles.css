@@ -389,7 +389,7 @@ body {
 .home .feed .tweets .profile-pic img {
   max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
   height: auto; /* Ajusta automáticamente la altura para mantener la proporción */
-  border-radius: 50%; /* Para que los avatares sean circulares */
+  
 }
 
 /*# sourceMappingURL=styles.css.map */
