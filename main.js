@@ -1,6 +1,6 @@
 // Definir una función para cargar los tweets desde el servidor JSON y mostrarlos en la página
 function cargarTweets() {
-    // Hacer una solicitud GET al servidor JSON (My JSON Server)
+    // Hacer una solicitud GET al servidor JSON
     fetch('https://my-json-server.typicode.com/taliasouza/FakeTw/posts')
       .then(response => response.json())
       .then(data => {
@@ -46,6 +46,6 @@ function cargarTweets() {
       .catch(error => console.error('Error al cargar los tweets:', error));
   }
   
-  // Llamar a la función para cargar los tweets al cargar la página
+  // Llama a la función para cargar los tweets al cargar la página
   window.addEventListener('load', cargarTweets);
   
