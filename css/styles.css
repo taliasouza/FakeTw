@@ -375,12 +375,5 @@ body {
   font-size: 20px;
 }
 
-/* En tu archivo styles.css o en el bloque de estilo en tu HTML */
-.avatar-img {
-  width: 10px; /* Ajusta el tamaño según tus preferencias */
-  height: 10px;
-  border-radius: 10%; /* Esto hace que los avatares sean circulares */
-}
-
 
 /*# sourceMappingURL=styles.css.map */
