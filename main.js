@@ -12,10 +12,15 @@ function cargarTweets() {
           const tweetDiv = document.createElement('div');
           tweetDiv.className = 'tweets';
   
+ // Generar una URL de avatar única para cada comentario
+ const avatarUrl = `https://xsgames.co/randomusers/avatar.php?g=pixel&id=${Math.floor(Math.random() * 20)}`;
+
+
+
           // Construir el contenido del tweet
           const tweetContent = `
             <div class="profile-pic">
-              <img src="https://xsgames.co/randomusers/assets/avatars/pixel/" />
+              <img src="https://xsgames.co/randomusers/avatar.php?g=pixel&id=${Math.floor(Math.random() * 20)}" />
             </div>
             <div class="content">
               <div class="names">
