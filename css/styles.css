@@ -265,8 +265,8 @@ body {
 }
 
 .home .feed .post .avatar img {
-  width: 30px !important;
-  height: 30px !important;
+  width: 2cm;
+  height: 2cm;
   border-radius: 50%;
 }
 
@@ -304,8 +304,8 @@ body {
 
 .home .feed .tweets .profile-pic {
   display: block;
-  width: 30px !important;
-  height: 30px !important;
+  width: 2cm;
+  height: 2cm;
   border-radius: 50%;
   margin: 0.5rem 1rem;
 }
