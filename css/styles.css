@@ -268,7 +268,6 @@ body {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  margin: 16px;
 }
 
 .home .feed .post .textbox textarea {
@@ -375,4 +374,22 @@ body {
   width: 15%;
   font-size: 20px;
 }
+
+
+/* Estilo para los avatares al lado de los comentarios */
+.home .feed .tweets .profile-pic {
+  width: 50px; /* Ancho del contenedor */
+  height: 50px; /* Altura del contenedor */
+  display: flex; /* Utilizamos flexbox para centrar verticalmente */
+  align-items: center; /* Centramos verticalmente */
+  justify-content: center; /* Centramos horizontalmente */
+  overflow: hidden; /* Para ocultar cualquier desbordamiento de los avatares */
+}
+
+.home .feed .tweets .profile-pic img {
+  max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+  height: auto; /* Ajusta automáticamente la altura para mantener la proporción */
+  border-radius: 50%; /* Para que los avatares sean circulares */
+}
+
 /*# sourceMappingURL=styles.css.map */
