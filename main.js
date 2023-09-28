@@ -15,7 +15,7 @@ function cargarTweets() {
           // Construir el contenido del tweet
           const tweetContent = `
             <div class="profile-pic">
-              <img src="https://xsgames.co/randomusers/avatar.php?g=pixel" />
+              <img src="https://xsgames.co/randomusers/assets/avatars/pixel/" />
             </div>
             <div class="content">
               <div class="names">
